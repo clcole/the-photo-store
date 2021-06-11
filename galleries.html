@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>The Photo Store - Galleries</title>
+</head>
+
+<body>
+
+  <nav id="mainNav" class="overlay-nav">
+    <a href="javascript:void(0)" class="overlay-nav__close" onclick="closeNav()"><b>&times;</b></a>
+    <div class="overlay-nav__content">
+      <a href="galleries.html">Galleries</a>
+      <a href="#">About Us</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+  <a href="javascript:void(0)" class="overlay-nav__open" onclick="openNav()"><b>&#9776;</b></a>
+
+  <header class="page-header">
+    <div class="page-header__logo">
+      <a href="index.html"><img src="images/logo.png" alt="The Photo Store"></a>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="gallery-section">
+      <article class="gallery-section__article">
+        <a href="weddings.html">
+          <img class="gallery-section__article-img" src="images/wedding1_550x550.jpg">
+          <div class="gallery-section__article-overlay"></div>
+          <div class="gallery-section__article-text">Weddings</div>
+        </a>
+      </article>
+
+      <article class="gallery-section__article">
+        <a href="engagements.html">
+          <img class="gallery-section__article-img" src="images/engagements1_550x550.jpg">
+          <div class="gallery-section__article-overlay"></div>
+          <div class="gallery-section__article-text">Engagements</div>
+        </a>
+      </article>
+
+      <article class="gallery-section__article">
+        <a href="family.html">
+          <img class="gallery-section__article-img" src="images/family1_550x550.jpg">
+          <div class="gallery-section__article-overlay"></div>
+          <div class="gallery-section__article-text">Family</div>
+        </a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__credits">
+      <h5>&copy;
+        <script>document.write(new Date().getFullYear())</script> The Photo Store</h5>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+
+</body>
+
+</html>
