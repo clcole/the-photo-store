@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>The Photo Store - Family Gallery</title>
+</head>
+
+<body>
+
+  <nav id="mainNav" class="overlay-nav">
+    <a href="javascript:void(0)" class="overlay-nav__close" onclick="closeNav()"><b>&times;</b></a>
+    <div class="overlay-nav__content">
+      <a href="#">Galleries</a>
+      <a href="#">About Us</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+  <a href="javascript:void(0)" class="overlay-nav__open" onclick="openNav()"><b>&#9776;</b></a>
+
+  <div id="myModal" class="gallery-modal">
+    <a href="javascript:void(0)" class="gallery-modal__close" onclick="closeModal()"><b>&times;</b></a>
+    <img class="gallery-modal__img" id="img-placeholder">
+  </div>
+
+  <header class="page-header">
+    <div class="page-header__logo">
+      <a href="index.html"><img src="images/logo.png" alt="The Photo Store"></a>
+    </div>
+  </header>
+
+  <main class="gallery-main">
+
+    <div class="gallery-main__column">
+      <img class="gallery-main__img" src="images/family1.jpg" alt="Snow">
+      <img class="gallery-main__img" src="images/family2.jpg" alt="Snow">
+      <img class="gallery-main__img" src="images/family3.jpg" alt="Snow">
+    </div>
+
+    <div class="gallery-main__column">
+      <img class="gallery-main__img" src="images/family4.jpg" alt="Snow">
+      <img class="gallery-main__img" src="images/family5.jpg" alt="Snow">
+    </div>
+
+    <div class="gallery-main__column">
+      <img class="gallery-main__img" src="images/family1.jpg" alt="Snow">
+      <img class="gallery-main__img" src="images/family2.jpg" alt="Snow">
+      <img class="gallery-main__img" src="images/family3.jpg" alt="Snow">
+    </div>
+
+    <div class="gallery-main__column">
+      <img class="gallery-main__img" src="images/family4.jpg" alt="Snow">
+      <img class="gallery-main__img" src="images/family5.jpg" alt="Snow">
+    </div>
+
+  </main>
+
+  <footer class="page-footer">
+    <div class="page-footer__credits">
+      <h5>&copy;
+        <script>document.write(new Date().getFullYear())</script> The Photo Store</h5>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+  <script src="modal.js"></script>
+
+</body>
+
+</html>
