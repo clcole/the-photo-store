@@ -55,7 +55,7 @@ body {
   top: 1rem;
   right: 1rem;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .overlay-nav__open {
@@ -75,6 +75,14 @@ body {
   padding: 2rem;
   text-align: left;
   background-color: #eee;
+}
+
+.page-header__logo img {
+  max-width: 55%;
+}
+
+.page-header__logo img:hover {
+  opacity: .7;
 }
 /* header */
 
@@ -102,7 +110,7 @@ body {
 
 .gallery-section__article {
   position: relative;
-  margin: 1rem auto;
+  margin: 1rem;
 }
 
 .gallery-section__article-img {
@@ -152,7 +160,7 @@ body {
 
 .info-section__article {
   width: 75%;
-  margin: 1rem auto;
+  margin: 1rem;
 }
 
 .info-section__article a { 
@@ -236,30 +244,91 @@ body {
   right: 1rem;
   text-decoration: none;
   color: #eee;
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 2rem;
   transition: 0.3s;
 }
 /* single gallery */
 
 
+/* about services and contact */
+.about-section,
+.services-section,
+.contact-section {
+  width: 80%;
+  margin: 4rem auto;
+  text-align: center;
+}
+
+.about-section__title,
+.services-section__title,
+.contact-section__title {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+.about-section__div,
+.services-section__div,
+.contact-section__div {
+  margin: 2rem auto;
+  border: 1px solid #eee;
+}
+
+.about-section__content,
+.services-section__content,
+.contact-section__content {
+  text-align: left;
+}
+
+.contact-section a {
+  text-decoration: none;
+  color: #000;
+}
+
+.contact-section a:hover {
+  opacity: .7;
+}
+/* about services and contact */
+
+
 /* footer */
 .page-footer {
-  padding: 1rem 0;
+  padding: 1rem;
   text-align: center;
   font-size: 1rem;
-  font-weight: 300;
   color: #eee;
   background: #000;
+}
+
+.page-footer__nav a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.page-footer__div {
+  width: 20%;
+  margin: 2rem auto;
+  border: 1px solid #111;
 }
 /* footer */
 
 
 @media screen and (min-width: 992px) {
 
+  /* overlay-nav */
+  .overlay-nav__open,
+  .overlay-nav__close {
+    font-size: 2.5rem;
+  }
+  /* overlay-nav */
+
+
   /* header */
   .page-header {
     text-align: center;
+  }
+
+  .page-header__logo img {
+    max-width: 30%;
   }
   /* header */
 
@@ -268,11 +337,12 @@ body {
   .gallery-section {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .gallery-section__article {
     width: 30%;
-    margin: 0 auto;
+    margin: 1rem;
   }
 
   .info-section {
@@ -298,5 +368,13 @@ body {
   .gallery-main__column {
     width: 25%;
   }
+  /* individual gallery */
+
+
+  /* single gallery */
+  .gallery-modal__close {
+    font-size: 2.5rem;
+  }
+  /* single gallery */
 
 }

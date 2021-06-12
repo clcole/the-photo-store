@@ -4,8 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="CLCole">
+  <meta name="description" content="The Photo Store is your full service Portrait Studio in Amarillo, TX.  Our photographers are master-trained specializing in portraits for families, children, infants, seniors and of course weddings.">
+  <meta name="keywords" content="Portraits, Portrait, Photographer, Photography, Photographers, Amarillo, TX, Texas, Family, Children, Senior, Seniors, Infant, Infants, Baby, Wedding">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="stylesheet" href="./css/styles.css">
-  <title>The Photo Store</title>
+  <title>The Photo Store - Portraits in Amarillo, TX</title>
 </head>
 
 <body>
@@ -13,10 +17,11 @@
   <nav id="mainNav" class="overlay-nav">
     <a href="javascript:void(0)" class="overlay-nav__close" onclick="closeNav()"><b>&times;</b></a>
     <div class="overlay-nav__content">
+      <a href="/">Home</a>
       <a href="galleries.html">Galleries</a>
-      <a href="#">About Us</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
     </div>
   </nav>
 
@@ -24,7 +29,7 @@
 
   <header class="page-header">
     <div class="page-header__logo">
-      <a href="index.html"><img src="images/logo.png" alt="The Photo Store"></a>
+      <a href="/"><img src="images/tps-logo.svg" alt="The Photo Store"></a>
     </div>
   </header>
 
@@ -46,10 +51,10 @@
       </article>
 
       <article class="gallery-section__article">
-        <a href="engagements.html">
+        <a href="babies.html">
           <img class="gallery-section__article-img" src="images/engagements1_550x550.jpg">
           <div class="gallery-section__article-overlay"></div>
-          <div class="gallery-section__article-text">Engagements</div>
+          <div class="gallery-section__article-text">Babies</div>
         </a>
       </article>
 
@@ -64,56 +69,65 @@
 
     <section class="info-section">
       <article class="info-section__article">
-        <a href="#">
+        <a href="about.html">
           <h3 class="info-section__article-title">About Us</h3>
-          <div class="info-section__article-content">
-            <p>
-              2 Terra autem erat inanis et vacua, et tenebrae erant super faciem abyssi: et spiritus Dei ferebatur super
-              aquas.
-              3 Dixitque Deus: Fiat lux. Et facta est lux.
-              4 Et vidit Deus lucem quod esset bona: et divisit lucem a tenebris.
-            </p>
-        </div>
         </a>
+        <div class="info-section__article-content">
+          <p>
+            The Photo Store of is a portrait studio with passionate photographers 
+            that consistently produce outstanding quality portraits at very reasonable prices
+          </p>
+        </div>      
       </article>
 
       <article class="info-section__article">
-        <a href="#">
+        <a href="services.html">
           <h3 class="info-section__article-title">Services</h3>
-          <div class="info-section__article-content">
-            <p>
-              2 Terra autem erat inanis et vacua, et tenebrae erant super faciem abyssi: et spiritus Dei ferebatur super
-              aquas.
-              3 Dixitque Deus: Fiat lux. Et facta est lux.
-              4 Et vidit Deus lucem quod esset bona: et divisit lucem a tenebris.
-              5 Appellavitque lucem Diem, et tenebras Noctem: factumque est vespere et mane, dies unus.
-              6 Dixit quoque Deus: Fiat firmamentum in medio aquarum: et dividat aquas ab aquis.
-            </p>
-        </div>
         </a>
+        <div class="info-section__article-content">
+          <p>
+            Our photographers are master-trained specializing in portraits for families, children, infants, 
+            seniors, and weddings
+          </p>
+      </div>
       </article>
 
       <article class="info-section__article">
-        <a href="#">
+        <a href="contact.html">
           <h3 class="info-section__article-title">Contact</h3>
-          <div class="info-section__article-content">
-            <p>
-              2 Terra autem erat inanis et vacua, et tenebrae erant super faciem abyssi: et spiritus Dei ferebatur super
-              aquas.
-              3 Dixitque Deus: Fiat lux. Et facta est lux.
-              4 Et vidit Deus lucem quod esset bona: et divisit lucem a tenebris.
-              5 Appellavitque lucem Diem, et tenebras Noctem: factumque est vespere et mane, dies unus.
-            </p>
-        </div>
         </a>
+        <div class="info-section__article-content">
+          <p>
+            <a href="https://goo.gl/maps/qjWaRAhxC8EJr3Yk8" target="_blank">3706 Olsen Blvd. Amarillo, TX 79109</a>
+          </p>
+          <p>
+            <a href="tel:+18063589616"><b>806.358.9616</b></a>
+          </p>
+          <p>
+            <a href="tel:+18006274686"><b>800.627.4686</b></a>
+          </p>
+          <p>
+            <a href="mailto:info@thephotostore.com"><b>info@thephotostore.com</b></a>    
+          </p>
+        </div>
       </article>
     </section>
 
   </main>
 
   <footer class="page-footer">
+    <nav class="page-footer__nav">
+      <p><a href="/">Home</a></p>
+      <p><a href="galleries.html">Galleries</a></p>
+      <p><a href="about.html">About Us</a></p>
+      <p><a href="services.html">Services</a></p>
+      <p><a href="contact.html">Contact</a></p>
+    </nav>
+
+    <div class="page-footer__div"></div>
+
     <div class="page-footer__credits">
-      <h5>&copy; <script>document.write(new Date().getFullYear())</script> The Photo Store</h5>
+      <p>&copy;<script>document.write(new Date().getFullYear())</script> The Photo Store</p>
     </div>
   </footer>
 

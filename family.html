@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="CLCole">
+  <meta name="description" content="The Photo Store is your full service Portrait Studio in Amarillo, TX.  Our photographers are master-trained specializing in portraits for families, children, infants, seniors and of course weddings.">
+  <meta name="keywords" content="Portraits, Portrait, Photographer, Photography, Photographers, Amarillo, TX, Texas, Family, Children, Senior, Seniors, Infant, Infants, Baby, Wedding">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="stylesheet" href="./css/styles.css">
   <title>The Photo Store - Family Gallery</title>
 </head>
@@ -13,10 +17,11 @@
   <nav id="mainNav" class="overlay-nav">
     <a href="javascript:void(0)" class="overlay-nav__close" onclick="closeNav()"><b>&times;</b></a>
     <div class="overlay-nav__content">
+      <a href="/">Home</a>
       <a href="galleries.html">Galleries</a>
-      <a href="#">About Us</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
+      <a href="about.html">About Us</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
     </div>
   </nav>
 
@@ -29,7 +34,7 @@
 
   <header class="page-header">
     <div class="page-header__logo">
-      <a href="index.html"><img src="images/logo.png" alt="The Photo Store"></a>
+      <a href="/"><img src="images/tps-logo.svg" alt="The Photo Store"></a>
     </div>
   </header>
 
@@ -60,9 +65,18 @@
   </main>
 
   <footer class="page-footer">
+    <nav class="page-footer__nav">
+      <p><a href="/">Home</a></p>
+      <p><a href="galleries.html">Galleries</a></p>
+      <p><a href="about.html">About Us</a></p>
+      <p><a href="services.html">Services</a></p>
+      <p><a href="contact.html">Contact</a></p>
+    </nav>
+
+    <div class="page-footer__div"></div>
+
     <div class="page-footer__credits">
-      <h5>&copy;
-        <script>document.write(new Date().getFullYear())</script> The Photo Store</h5>
+      <p>&copy;<script>document.write(new Date().getFullYear())</script> The Photo Store</p>
     </div>
   </footer>
 
