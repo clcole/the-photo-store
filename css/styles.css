@@ -38,7 +38,7 @@ body {
 .overlay-nav__content a {
   padding: 1.5rem;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #eee;
   display: block;
   transition: 0.3s;
@@ -299,15 +299,28 @@ body {
   background: #000;
 }
 
-.page-footer__nav a {
+.page-footer a {
   text-decoration: none;
   color: #eee;
+}
+
+.page-footer a:hover {
+  color: #aaa;
 }
 
 .page-footer__div {
   width: 20%;
   margin: 2rem auto;
-  border: 1px solid #111;
+  border: 1px solid #222;
+}
+
+.page-footer__social {
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.page-footer__social a {
+  padding: 0 7px;
 }
 /* footer */
 
