@@ -44,8 +44,7 @@ body {
   transition: 0.3s;
 }
 
-.overlay-nav__content a:hover, 
-.overlay-nav__content a:focus {
+.overlay-nav__content a:hover{
   color: #aaa;
 }
 
@@ -188,7 +187,8 @@ body {
   max-width: 100%;
   display: block;
   object-fit: cover;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
+  margin: 1rem auto 0 auto;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -279,6 +279,47 @@ body {
   text-align: left;
 }
 
+.services-section__button {
+  background-color: #eee;
+  color: #000;
+  cursor: pointer;
+  margin-top: 1rem;
+  padding: 1.5rem;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.services-section__button:hover, .services-section__button_active {
+  background-color: #aaa;
+}
+
+.services-section__button::after {
+  /* plus sign */
+  content: '\002B';
+  color: #000;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.services-section__button_active::after {
+  /* minus sign */
+  content: "\2212";
+}
+
+.services-section__article {
+  padding: 0 1rem;
+  /* background-color: white; */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s;
+}
+
 .contact-section a {
   text-decoration: none;
   color: #000;
@@ -355,7 +396,7 @@ body {
 
   .gallery-section__article {
     width: 30%;
-    margin: 1rem;
+    /* margin: 1rem; */
   }
 
   .info-section {
