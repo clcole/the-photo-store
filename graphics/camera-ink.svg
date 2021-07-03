@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="134.9375mm"
+   height="134.9375mm"
+   viewBox="0 0 134.9375 134.9375"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="camera-ink.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.59843177"
+     inkscape:cx="316.661"
+     inkscape:cy="296.60858"
+     inkscape:window-width="1366"
+     inkscape:window-height="740"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-global="false" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="130.91865,100.55894"
+       end_point="130.91865,137.6626"
+       center_point="130.91865,119.11077"
+       id="path-effect1882"
+       is_visible="true"
+       lpeversion="1.1"
+       mode="free"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false"
+       split_open="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-41.011446,-62.486411)">
+    <g
+       id="g9115">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke-width:2.51647"
+         id="rect8303"
+         width="24.045694"
+         height="16.229771"
+         x="61.384346"
+         y="87.621826"
+         ry="1.8437848" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke-width:12.4604"
+         id="rect8123"
+         width="119.06251"
+         height="80.36187"
+         x="48.948944"
+         y="91.92662"
+         ry="9.1295204" />
+      <path
+         id="circle7934"
+         style="fill:#eeeeee;stroke-width:6.89703"
+         d="m 160.62116,103.44765 a 5.0136325,5.0696139 0 0 1 -5.01363,5.06961 5.0136325,5.0696139 0 0 1 -5.01363,-5.06961 5.0136325,5.0696139 0 0 1 5.01363,-5.069617 5.0136325,5.0696139 0 0 1 5.01363,5.069617 z" />
+      <ellipse
+         style="fill:#eeeeee;fill-opacity:1;stroke-width:8.87707"
+         id="circle8099"
+         cx="108.48019"
+         cy="132.10754"
+         rx="26.805733"
+         ry="27.105042" />
+      <ellipse
+         style="fill:#000000;fill-opacity:1;stroke-width:7.18712"
+         id="circle8060"
+         cx="108.48019"
+         cy="132.10754"
+         rx="21.702642"
+         ry="21.944971" />
+    </g>
+  </g>
+</svg>
